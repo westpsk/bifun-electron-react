@@ -1,14 +1,24 @@
 .container {
-  position: absolute;
-  top: 30%;
-  left: 10px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  font-family: sans-serif;
 }
-
-.container h2 {
-  font-size: 5rem;
+.title {
+  color: #05ff25;
 }
-
-.container a {
-  font-size: 1.4rem;
+.content {
+  margin-top: 100px;
+  padding: 0 50px;
+}
+.posion {
+  font-size: 36px;
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.footer {
+  text-align: right;
+  margin: 100px;
 }
